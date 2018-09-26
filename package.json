@@ -1,0 +1,37 @@
+{
+  "name": "countdown_paris",
+  "version": "1.0.0",
+  "description": "Countdown using pure Javascript ",
+  "main": "countdown.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "normalize-scss": "^7.0.1"
+  },
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-connect": "latest",
+    "gulp-sass": "latest",
+    "gulp-watch": "latest"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Borny/countdown_paris.git"
+  },
+  "keywords": [
+    "countdown",
+    "paris",
+    "javascript",
+    "iife",
+    "es6",
+    "gulp"
+  ],
+  "author": "Tristan Deloris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Borny/countdown_paris/issues"
+  },
+  "homepage": "https://github.com/Borny/countdown_paris#readme"
+}

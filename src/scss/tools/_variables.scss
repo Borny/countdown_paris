@@ -1,0 +1,62 @@
+////////////////
+// FONT FAMILY
+////////////////
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext');
+$fontRoboto: 'Roboto', Arial, sans-serif, serif, Helvetica;
+
+// ScorchedEarth
+@font-face {
+    font-family: 'ScorchedEarth';
+    src: url('../../src/fonts/scorchedEarth.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Base 02
+@font-face {
+    font-family: 'Base02';
+    src: url('../../src/fonts/Base02.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+///////////
+// COLORS
+///////////
+
+$white: #FFF;
+$black: #000;
+
+$tundora: #494949;
+$scorpion: #5C5C5C;
+$boulder: #787878;
+$dustygray: #979797;
+$alabaster: #FAFAFA;
+
+$yellowsea: #FFAD0B;
+
+$wildwatermelon: #FC5E71;
+
+$cerulean: #00A3E4;
+$malibu: #60D2FF;
+$skyblue: #6BC8ED;
+$frenchpass: #BAEBFE;
+$pattensblue: #E1F6FF;
+
+////////////////
+// FONT WEIGHT
+////////////////
+
+$fontWeightLight: 300;
+$fontWeightBase: 400;
+$fontWeightBold: 500;
+$fontWeightBolder: 700;
+
+/////////////////
+// SCREEN SIZES
+/////////////////
+
+$screen-xs: 480px;
+$screen-sm: 768px;
+$screen-md: 992px;
+$screen-lg: 1200px;
