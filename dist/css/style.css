@@ -545,11 +545,17 @@ body.body_ny {
 header {
   display: flex;
   justify-content: center;
-  padding: 5em 0 0; }
+  padding: 0; }
+  @media (min-width: 768px) {
+    header {
+      padding: 5em 0 0; } }
   header h1 {
     text-align: center;
-    font-size: 5em;
+    font-size: 4em;
     color: #FFF; }
+    @media (min-width: 768px) {
+      header h1 {
+        font-size: 5em; } }
   header.header_paris h1 {
     font-family: "ScorchedEarth"; }
   header.header_ny h1 {
@@ -566,8 +572,11 @@ header {
   padding: 2rem;
   border-radius: 15px;
   box-shadow: 5px 3px 8px #232323;
-  width: 50%;
+  width: 90%;
   margin: 0 auto; }
+  @media (min-width: 768px) {
+    .countdown {
+      width: 50%; } }
   .countdown.countdown_ny {
     background: rgba(255, 255, 255, 0.2); }
 
