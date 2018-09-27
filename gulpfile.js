@@ -13,7 +13,7 @@ gulp.task('sass', function(){
 })
 
 gulp.task('html', function(){
-    gulp.src('index.html')
+    gulp.src('*.html')
         .pipe(connect.reload());
 })
 
@@ -24,7 +24,7 @@ gulp.task('js', function(){
 
 gulp.task('watch', function(){
     gulp.watch('src/scss/**/*.scss', ['sass']);
-    gulp.watch('index.html', ['html']);
+    gulp.watch('*.html', ['html']);
     gulp.watch('src/js/*', ['js']);
 })
 
