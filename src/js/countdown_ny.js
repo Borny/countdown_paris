@@ -1,4 +1,4 @@
-// PARIS
+// NEW YORK
 function countdown(endDate){
     let days, hours, minutes, seconds;
 
@@ -45,5 +45,5 @@ function countdown(endDate){
 }
 
 (function(){
-    countdown('11/07/2018 06:00:00 PM')
+    countdown('10/26/2018 12:00:00 PM')
 }());
