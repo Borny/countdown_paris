@@ -7,6 +7,8 @@ $fontCasino: 'Casino';
 $fontBase02: 'Base02';
 $scorchedEarth: 'ScorchedEarth';
 $harlem: 'harlem';
+$upperside : 'UpperSide';
+$broadway : 'broadway';
 
 // ScorchedEarth
 @font-face {
@@ -26,7 +28,7 @@ $harlem: 'harlem';
 
 // UpperSide
 @font-face {
-    font-family: 'UpperSide';
+    font-family: $upperside;
     src: url('../../src/fonts/UpperEastSide.ttf');
     font-weight: normal;
     font-style: normal;
@@ -52,6 +54,14 @@ $harlem: 'harlem';
 @font-face {
     font-family: $fontCasino;
     src: url('../../src/fonts/Casino.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Broadway
+@font-face {
+    font-family: $broadway;
+    src: url('../../src/fonts/BroadwayFlat.ttf');
     font-weight: normal;
     font-style: normal;
 }
